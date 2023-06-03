@@ -1,0 +1,501 @@
+/* Unit editable CSS */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.05em;
+}
+h1 {
+	font-size: 2.57em;
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+h2 {
+	clear: both;
+	font-size: 30px;
+	font-weight: normal;
+	color: #002145;
+	margin: 30px 0 10px;
+}
+h4 {
+	padding: 20px 35px; 
+	background:#ebebeb; 
+	display:block; 
+}
+.reduce { 
+	opacity: 1;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+}
+
+p {
+	margin: 0 0 5px;
+}
+.accordion-toggle {
+	cursor: pointer;
+	margin: 0;
+}
+.accordion-content {
+	display: none;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+.accordion-content.default {
+	display: block;
+	padding: 10px;
+}
+.accordion {
+	margin-bottom: 20px;
+}
+h4 {
+	margin-bottom: 10px !important;
+}
+img {
+    margin-bottom: 0;
+}
+.numberCircle {
+	width: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	background: #002145;
+	border: 0px solid #666;
+}
+p.SvcName {
+	text-align: center;
+	padding-bottom: 2em;
+	font-weight: 700;
+	font-size: 18px;
+}
+#ubc7-apom a:hover {
+	background-color: unset;
+}
+a:link, a:visited {
+	text-decoration: underline;
+	color: #2f5d7c;
+}
+a:hover, a:focus, a:active {
+	color: #2f5d7c;
+	text-decoration: none;
+}
+li {
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+.nobreak {
+	white-space: nowrap;
+}
+th h3 {
+	display: inline-block;
+}
+/** Unit Bar background color **/
+#ubc7-unit {
+	background: #264E6A;
+}
+#ubc7-wordmark-block {
+	border-left: 0px solid #1f385f;
+}
+header {
+	padding: 0;
+}
+body {
+	background: none repeat scroll 0 0 #FFFFFF !important;
+}
+#password-clear {
+	display: none;
+}
+.fa {
+	/*color: #2f5d7c;*/
+	color: #002145;
+	font-size: 1.5em;
+}
+/*containers*/
+
+html>body tbody.scrollContent {
+	display: block;
+	overflow-y: scroll;
+//this will make sure to always display the scrollbar, whether it's active (available for scrolling) or not. overflow-x: hidden;
+	width: 100%;
+}
+#attributeRelease table {
+	display: table;
+	border-bottom: 1px solid #d7e0e7;
+}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+#flexContainer, .oneColumn, #col1, #col2, #mfacol1, #mfacol2, #mfacol3 {
+	border: 0px solid #ebebeb;
+}
+.full-width-container {
+	margin: auto;
+	padding-top: 40px;
+}
+#flexContainer {
+	max-width: 900px;
+	margin: auto;
+	margin-bottom: 50px !important;
+}
+.oneColumn {
+	max-width: 540px;
+	margin-top: 1.5em;
+}
+#col1 {
+	float: left;
+	width: 47%;
+	padding-right: 50px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+#col2 {
+	float: left;
+	width: 47%;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+
+#mfacol1 {
+	float: left;
+	width: 30%;
+	padding-right: 50px;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+#mfacol2 {
+	float: left;
+	width: 30%;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+		text-align: center;
+}
+#mfacol3 {
+	float: left;
+	width: 30%;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+		text-align: center;
+}
+
+
+.alert {
+	margin-bottom: 1.5em;
+	padding: 1em 1.75em .6em;
+	color: #002145;
+	background-color: #c3d0db;
+	border: 1px solid #98b2c3;
+}
+.alert ul {
+	margin: 0 0 10px 0px;
+	list-style: none;
+}
+.label, .badge {
+	display: inline-block;
+	padding: 4px 8px;
+}
+.alert ul li {
+	font-size: .85em;
+	line-height: 1.55em;
+	padding-left: 25px;
+	background-image: url(../images/alerts_bullet_white.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#generalConsentDiv {
+	display: block;
+	background-color: #F6F6F6;
+	border: 1px #dddddd solid;
+	padding: 20px 50px 40px;
+}
+/*Input Fields*/
+
+input[type="checkbox"].login {
+	position: absolute;
+}
+label.login {
+	padding: 0 1.4em;
+	display: inline-block;
+}
+#generalConsentDiv label {
+	color: #000000;
+}
+.form-group {
+	margin-bottom: 0;
+}
+form > div.form-group > label {
+	width: unset;
+}
+form > div {
+	padding: 1px;
+	margin: 0 0 0 0;
+}
+.form-element {
+	width: 87%;
+}
+a.button {
+	background-color: #4f8d38;
+	border-color: #4f8d38;
+	color: white;
+	border-radius: 3px;
+	padding: 10px 25px;
+	box-shadow: none;
+	border: none;
+	margin-top:20px;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+	width: 33%;
+	margin: auto;
+}
+input {
+	width: inherit;
+	margin-left: 0;
+}
+input[type="checkbox"], input[type="radio"], input[type="text"], input[type="password"], select {
+	margin: 3px 0 5px;
+}
+input[type=text], input[type=password] {
+	display: inline-block;
+	height: 20px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #555;
+	vertical-align: middle;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border .2s linear, box-shadow .2s linear;
+	transition: border .2s linear, box-shadow .2s linear
+}
+.btn {
+	padding: 6px 24px;
+	margin-top: 12px;
+	width: auto;
+}
+.invert.btn-link {
+	text-decoration: underline;
+}
+.invert.btn-link:hover {
+	text-decoration: none;
+}
+label {
+	margin-bottom: 2px;
+	margin-top: 0;
+	font-weight: 700;
+	color: #666666;
+}
+/* table styles*/
+/*.table th {
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 1em;
+}*/
+#attributeRelease label, label.login {
+	font-weight: 400;
+	color: #000;
+}
+#attributeRelease td:first-child {
+	font-weight: 700;
+}
+#attributeRelease .table h3 {
+    margin: 10px 0 5px;
+}
+/*Footer Styling*/
+
+#ubc7-minimal-footer {
+	background: none repeat scroll 0 0 #ebebeb;
+	padding-top: 10px;
+}
+#ubc7-global-footer, #ubc7-minimal-footer, #ubc7-global-footer a, #ubc7-minimal-footer a {
+	color: #002145 !important;
+	text-decoration: none;
+}
+#ubc7-minimal-footer a:hover, #ubc7-global-footer a:hover {
+	color: #002145 !important;
+	text-decoration: underline;
+}
+#ubc7-minimal-footer .span12 {
+	border-top: 0 solid #1F385F;
+	float: none;
+	padding: 0 0 0px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1199px) {
+#flexContainer {
+	margin: auto;
+	width: 100%;
+}
+#col1 {
+	float: left;
+	width: 47%;
+	padding-right: 40px;
+}
+#col2 {
+	float: left;
+	width: 47%;
+}
+#mfacol1 {
+	float: left;
+	width: 30%;
+	padding-right: 40px;
+}
+#mfacol2 {
+	float: left;
+	width: 30%;
+}
+#mfacol3 {
+	float: left;
+	width: 30%;
+}
+}
+
+@media screen and (max-width: 979px) {
+#flexContainer {
+	width: 90%;
+}
+#col1 {
+	float: left;
+	width: 47%;
+	padding-right: 0;
+}
+#col2 {
+	float: left;
+	width: 47%;
+}
+#mfacol1 {
+	float: left;
+	width: 30%;
+	padding-right: 40px;
+}
+#mfacol2 {
+	float: left;
+	width: 30%;
+}
+#mfacol3 {
+	float: left;
+	width: 30%;
+}
+}
+
+@media screen and (max-width: 767px) {
+#flexContainer {
+	width: 100%;
+}
+#col1 {
+	width: 100%;
+	padding-right: 0;
+}
+#col2 {
+	width: 100%;
+	margin-top: 0.5em;
+}
+#mfacol1 {
+	width: 100%;
+	padding-right: 0;
+}
+#mfacol2 {
+	width: 100%;
+	margin-top: 0.5em;
+}
+#mfacol3 {
+	width: 100%;
+	margin-top: 0.5em;
+}
+h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin: .5em 0 .5em 0;
+	line-height: 1.35em;
+	width: 100%;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight: 400;
+	margin: 1em 0 0em;
+}
+input[type="text"], input[type="password"] {
+	width: 98%;
+	box-sizing: inherit;
+}
+form > div > label {
+	width: auto;
+	margin: 0 0 2px 0;
+}
+.btn {
+	padding: 10px 16px;
+	margin-top: 12px;
+	width: 100% !important;
+	font-weight: 700;
+}
+}
+
+@media screen and (max-width: 480px) {
+h1 {
+	font-size: 1.8em;
+	font-weight: 700;
+	margin: .5em 0 .5em 0;
+	line-height: 1.35em;
+	text-align: left;
+}
+p.SvcName {
+	text-align: left;
+	padding-bottom: 2em;
+}
+#attributeRelease table {
+	display: block;
+}
+}
+
+@media screen and (max-width: 420px) {
+select, textarea, input[type="text"], input[type="password"] {
+	padding-right: 0;
+}
+#col1 {
+	display: block;
+	float: left;
+	width: 100%;
+	padding-right: 0;
+}
+#col2 {
+	display: block;
+	clear: both;
+	width: 100%;
+}	
+#mfacol1 {
+	display: block;
+	float: left;
+	width: 100%;
+	padding-right: 0;
+}
+#mfacol2 {
+	display: block;
+	clear: both;
+	width: 100%;
+}
+#mfacol3 {
+	display: block;
+	clear: both;
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 320px) {
+h1 {
+	font-size: 1.8em;
+	font-weight: 700;
+	margin: .5em 0 .5em 0;
+	line-height: 1.35em;
+}
+}
